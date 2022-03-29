@@ -1,7 +1,7 @@
 /* queries to understand the data */
 
 -- Module(s)
-
+--@object  
 SELECT * FROM sales_numbers;
 --------------------------------------
 --- Identifiable timeline 
@@ -71,3 +71,12 @@ ORDER BY Defects_Reported DESC
 
 ---------------------------------------
 
+--- CREATE a query to have a counter. 
+SELECT * FROM sales_numbers;
+
+----------
+
+SET @var2 = 1
+SELECT Targeted_Campaign FROM sales_numbers;
+
+----
